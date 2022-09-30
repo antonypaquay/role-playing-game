@@ -56,7 +56,7 @@ while user_life_points > 0 and enemy_life_points > 0:
         print(f"Il reste {enemy_life_points} points de vie à l'ennemi.")
         print("------------------------------------------------------")
 
-if user_life_points > 0:
+if user_life_points >= 0:
     print("Vous avez gagné 💪 !")
 else:
     print("Vous êtes mort 💀! Votre ennemi a gagné !")
